@@ -33,7 +33,7 @@ function handleGalleryItemClick(e) {
 }
 
 function onModalOpen(src, alt) {
-  modal = basicLightbox.create(`<img src=${src} alt=${alt}>`);
+  modal = basicLightbox.create(`<img src=${src} alt='${alt}'>`);
   modal.show();
   window.addEventListener('keydown', handleModalClose);
 }
