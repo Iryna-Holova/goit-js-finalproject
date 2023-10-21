@@ -12,7 +12,6 @@ gallery.insertAdjacentHTML('beforeend', galleryMarkup);
 
 // Initialize the SimpleLightbox instance for the gallery
 let galleryBox = new SimpleLightbox('.gallery a', { captionsData: 'alt', captionDelay: 250 });
-galleryBox.on();
 
 /**
  * Creates the HTML markup for each gallery item.
